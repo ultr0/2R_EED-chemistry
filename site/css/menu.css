@@ -75,3 +75,7 @@ nav ul li ul li a:hover {
 .left {
   float: left;
 }
+
+.edubook ul li a {
+  padding: 3px 20px;
+}
