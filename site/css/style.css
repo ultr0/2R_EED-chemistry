@@ -75,6 +75,10 @@ ul a:hover {
   padding-top: 10px; 
 }
 
+.content_menu{
+  margin-top: -26px;
+}
+
 .course_details_area .title {
     font-size: 21px;
     border: none;
