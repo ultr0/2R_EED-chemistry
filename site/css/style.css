@@ -66,8 +66,9 @@ ul a:hover {
 @media (min-width: 768px){
   .content_menu{
     position: sticky;
+    position: -webkit-sticky;
     top: 0;
-    height: fit-content;
+    height: 10px;
   }
 }
 
@@ -77,6 +78,10 @@ ul a:hover {
 
 .content_menu{
   margin-top: -26px;
+}
+
+.content{
+  text-align: justify;
 }
 
 .course_details_area .title {
