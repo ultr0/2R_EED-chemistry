@@ -1,28 +1,15 @@
-<!-- тэг объявления документа -->
-<!doctype html>
-<!-- тэг начала страницы -->
-<html>
-<!-- тэг заголовка страницы -->
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <!-- мета, справочная информация страницы -->
     <meta charset="utf-8">
-    <!-- заголовок страницы -->
     <title>ЭУП Химия</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- ссылки на файлы стилей -->
-    <!-- подключаем библиотеку вёрстки -->
-    <link rel="stylesheet prefetch" type="text/css" href="css/bootstrap.css">
-    <!-- основные стили страницы -->
-    <link rel="stylesheet prefetch" type="text/css" href="css/style.css">
-    <!-- файл стиля меню сайта -->
-    <link rel="stylesheet prefetch" type="text/css" href="css/hexagons.css">
-    <!-- шрифты -->
-    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
-    <!-- закрывающий тэг -->
+
+    <link rel="stylesheet" media="screen" href="css/bootstrap.css">
+    <link rel="stylesheet" media="screen" href="css/style.css">
+    <link rel="stylesheet" media="screen" href="css/hexagons.css">
 </head>
-<!-- тэг начала тела страницы для отображения -->
 <body>
-<!-- семантическая разметка заголовка тела страницы -->
+<div id="particles-js"></div>
 <header class="header_area">
     <!-- класс для блока с меню -->
     <div class="main_menu">
@@ -101,6 +88,15 @@
             </li>
             <li class="hex">
                 <div class="hexIn">
+                    <a class="hexLink" href="benzene.html">
+                        <img src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg" alt=""/>
+                        <h1>Бензол</h1>
+                        <p>органическое химическое соединение, простейший ароматический углеводород</p>
+                    </a>
+                </div>
+            </li>
+            <li class="hex">
+                <div class="hexIn">
                     <a class="hexLink" href="acetylene.html">
                         <img src="https://farm3.staticflickr.com/2827/10384422264_d9c7299146.jpg" alt=""/>
                         <h1>Ацетелен</h1>
@@ -118,21 +114,10 @@
                     </a>
                 </div>
             </li>
-            <li class="hex">
-                <div class="hexIn">
-                    <a class="hexLink" href="benzene.html">
-                        <img src="https://farm7.staticflickr.com/6083/6055581292_d94c2d90e3.jpg" alt=""/>
-                        <h1>Бензол</h1>
-                        <p>органическое химическое соединение, простейший ароматический углеводород</p>
-                    </a>
-                </div>
-            </li>
+
         </ul>
     </div>
 </header>
-<!-- интерактивный фон -->
-<div id="particles-js"></div>
-<!-- блок описания -->
 <section class="about_area section_gap">
     <!-- внутренний блок для библиотеки вёрстки -->
     <div class="container content_card">
@@ -146,18 +131,26 @@
                 <p>Данное учебное пособие предназначено для </p>
 
                 <h5>Инструкция по использованию</h5>
+                <div class="content">
+                    Для запуска стартовой страницы данного электронного пособия необходимо в корне папки с ЭУП открыть
+                    файл "index.html"
+                    <br>
+                    Навигация между страницами осуществляется при помощи меню. На главной странице она представлена
+                    сверху и выполнена в виде шестиугольной сетки, а на других страницах пособия представлена в виде
+                    бокового меню с делением подразделы для каждой из страниц.
+                    <br>
+                    В качестве мультимедийного содержимого в части тем содержатся видеофайлы. Для просмотра их,
+                    достаточно нажать кнопку воспроизведения, а что бы перейти в полноэкранный режим необходимо нажать
+                    соответствующую кнопку видеоплеера.
+                </div>
             </div>
         </div>
     </div>
 </section>
-<!-- разметка нижней части страницы на будущее -->
-<footer>
 
-</footer>
-<!-- подключение скриптов страницы -->
-
+<!-- scripts -->
 <script src="js/particles.js"></script>
-<script src="js/bootstrap.min.js"></script>
 <script src="js/app.js"></script>
+
 </body>
 </html>

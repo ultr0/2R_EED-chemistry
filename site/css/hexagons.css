@@ -90,11 +90,18 @@
   border-bottom: 1px solid #fff;
 }
 .hex p {
+
   top: 50%;
   padding-bottom:50%;
 /*  -webkit-transform:translate3d(0,100%,0);
       -ms-transform:translate3d(0,100%,0);
           transform:translate3d(0,100%,0);*/
+}
+
+@media (max-width: 1511px) {
+  .hex p{
+    font-size: small;
+  }
 }
 
 .hex h1:hover {
